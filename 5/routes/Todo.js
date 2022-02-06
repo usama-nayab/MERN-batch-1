@@ -3,10 +3,10 @@ const router = express.Router();
 const controllers = require('../controller/Todo');
 
 // making routes
-router.post('/' , controllers.add);
-router.get('/' , controllers.get);
+router.post('/add' , controllers.add);
+router.get('/read' , controllers.get);
 router.delete('/' , controllers.del);
-router.patch('/' , controllers.update);
 router.put('/' , controllers.updateList);
+router.patch('/' , controllers.update)
 
 module.exports = router;

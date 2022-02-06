@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost/my_database' , (err) => {
   if (err){
-    console.log('connection failed!');
+    console.log('TODO connection failed!');
   }
   else {
-    console.log('connection successful');
+    console.log('TODO connection successful');
   }
 } );

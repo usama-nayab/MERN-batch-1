@@ -6,4 +6,4 @@ const Todo = new Schema({
     list: Array
 });
 
-module.exports = mongoose.model('Todo' , Todo);
+module.exports = mongoose.model('TodoList' , Todo);
